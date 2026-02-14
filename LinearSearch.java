@@ -16,7 +16,7 @@ public class LinearSearch {
 
         int index = LS(numbers, key);
         if(index == -1) {
-            System.out.println("Not found");
+            System.out.println("Key not found");
         }
         else {
             System.out.println("Key at index : " + index);
